@@ -10,7 +10,7 @@ def revword(word):
     
 def countword():
     counter=1
-    myfile = open("c:/users/ellen/programspy/matala2/text.txt", "r")
+    myfile = open("text.txt", "r")
     #read first line without /n
     word = myfile.readline()
     word = word[0:len(word)-1]
